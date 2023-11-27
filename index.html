@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="mediaqueries.css" type="text/css">
+    
+
+    <!-- font awesome link for logo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav id="nav-1">
+        <div class="logo">Portfolio</div>
+        <div >
+            <ul class="nav-link">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- to create a hamburger menu when the screen is lower  or  you can use img then covert into  x img -->
+    <nav id="hamburger-nav">
+        <div class="logo">Portfolio</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <!-- the span is the lines of the hamburger when the screen is become lower -->
+            <div class="menu-links">
+                <li><a href="#profile">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#Project">Project</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+ <!-- creating profile section -->
+    <section id="profile">
+        <div class="section-about">
+            <img  class="pic" src="profile pic 1.png" alt="Naveen Kumar Y Profile pic">
+        </div>
+        <div class="section-text">
+            <p class="section-text-p1">Hello, I'm </p>
+            <h1 class="title">Naveen Kumar Y</h1>
+            <p class="section-text-p2">Python Full Stack Developer</p>
+       
+        <div class="btn-container">
+            <button class="btn btn-color-1" onclick="window.open()">Download CV</button>
+            <button class="btn btn-color-2" onclick="location.href='./#Contact'">Contact INFO</button>
+        </div>
+        <div class="social-container">
+            <i class="fa-brands fa-linkedin-in fa-bounce" class="icon" onclick="location.href='linkedin.com/in/naveen-kumar-y-0822b8236' "></i> 
+           <i class="fa-brands fa-github fa-bounce" class="icon" onclick="location.href='github.com/NaveenkumarY26'"></i>
+        </div>
+        </div>
+    </section>
+
+    <!-- creating about section -->
+    <section id="about">
+        <p class="section-text-p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section-pic-continer">
+                <img class="about-pic" src="profile pic 1.png" alt="Profile Pic">
+            </div>
+            <div class="about-detail-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Experience</h3><br>
+                        <p>Fresher<br>Python Full Stack Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Education</h3>
+                        <p>Master Of Business Adminstration<br>(HR and Operations ) <br>
+                        Bachelor Of computer Applications<br>(Computer Applications)</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p> An enthusiastic fresher who is a self-starter and capable to use
+                         technical skills for the betterment of the organization. Aiming to
+                        leverage proven technical , problem solving, and research skills to
+                        successfully fill the complete role at work place.
+                        </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- creating Experience section -->
+
+    <section id="experience">
+        <p class="section-text-p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                            <div><h3>HTML</h3></div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                            <div><h3>CSS</h3></div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                            <div><h3>BOOTSTRAP</h3></div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                            <div><h3>JAVA SCRIPT</h3></div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-award"></i>                            <div><h3>REACTJS</h3></div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Backend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                             <div><h3>PYTHON</h3></div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                            <div><h3>MY SQL</h3></div>
+                        </article>
+                        <article>
+                            <i class="fa-solid fa-award"></i>
+                            <div><h3>DJANGO</h3></div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- creating a Project Section -->
+    <section id="Project">
+        <p class="section-text-p1">Browse My Projects</p>
+        <h1 class="title">Projects</h1>
+        <div class="about-containers">
+            <div class="details-container color-container" >
+                <div class="article-container">
+                    <img src="" alt="project 1" class="project">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 1</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+        
+        
+            <div class="details-container color-container" >
+                <div class="article-container">
+                    <img src="" alt="project 2" class="project">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 2</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+      
+            <div class="details-container color-container" >
+                <div class="article-container">
+                    <img src="" alt="project 3" class="project">
+                </div>
+                <h2 class="experience-sub-title project-title">Project 3</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Live Demo</button>
+                </div>
+            </div>
+    </section>
+    <!-- creating a contact -->
+    <section id="Contact">
+        <p class="section-text-p1">Get in Touch</p>
+        <h1 class="title">Contact</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                
+                <p><a href="mail:naveen383kumar@gmail.com">naveeen383kumar@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+               <i  class="fa-brands fa-linkedin-in fa-bounce"></i>
+                <p><a href="linkedin web page id">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p style="color: white;">Copyright &#169; 2023 Naveen Kumar Y. All rights reserved</p>
+    </footer>
+    <script src="script.js"></script>
+  
+</body>
+</html>
